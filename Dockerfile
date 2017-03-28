@@ -6,7 +6,7 @@ RUN apt-get update
 RUN apt-get install -y apache2
 
 # Add wordpress files
-ADD wordpress/ /var/www/wordpress
+ADD wordpress/ /var/www/html/wordpress
 
 # Identifie quelle commande rouler
 ENTRYPOINT  ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
