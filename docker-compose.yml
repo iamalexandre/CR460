@@ -6,6 +6,8 @@ services:
       - "80:80"
   db:
     image: mysql:8.0.0
+    volumes:
+      - /tmp/db:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=password123!
       - MYSQL_DATABASE=wordpress
