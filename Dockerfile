@@ -1,4 +1,4 @@
-# Image de base
+# Image de base Alex
 FROM ubuntu:16.04
 
 #Installation d'apache
