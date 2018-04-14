@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: rlabelle/cr460
+        image: albourguignon/cr460-wp
         ports:
         - containerPort: 80
         env:
