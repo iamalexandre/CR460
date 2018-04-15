@@ -1,4 +1,4 @@
-# Commandes
+# Étape
 
 Etape 1:
 Batir l'image: `docker build .`
