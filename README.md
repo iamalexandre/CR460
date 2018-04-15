@@ -3,9 +3,9 @@
 Etape 1:
 Batir l'image: `docker build .`
 
-Rouler le contenant: `docker run  -p 80:80 <imageid>`
+Asigner le nom a l'image: `docker tag <imageid> <nom de l'image>`
 
-Tuer un contenant: `docker kill <imageid>`
+S'identifier au hub docker: `docker login`
 
 Trouver un contenant qui roule: `docker ps`
 
