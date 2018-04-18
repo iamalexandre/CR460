@@ -3,6 +3,10 @@ kind: Ingress
 metadata:
   name: wp-ingress
 spec:
-  backend:
-   serviceName: wp-service
-   servicePort: 80    
+  rules:
+  - http:
+      paths:
+      - path: /web
+        backend:
+          serviceName: wp-service
+          servicePort: 80
