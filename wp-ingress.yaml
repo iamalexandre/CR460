@@ -9,8 +9,4 @@ spec:
       - path: /wordpress
         backend:
           serviceName: wp-service
-          servicePort: 80
-      - path: /wordpress2
-        backend:
-          serviceName: wp-service
-          servicePort: 80
+          servicePort: 80    
