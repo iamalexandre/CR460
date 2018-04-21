@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   name: wp-deployment
 spec:
+  selector:
+    matchLabels:
+      app: web
   replicas: 1
   template:
     metadata:
