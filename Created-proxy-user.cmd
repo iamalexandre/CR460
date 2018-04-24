@@ -1,1 +1,1 @@
-gcloud sql users create proxyuser cloudsqlproxy~% --instance=[INSTANCE_NAME] --password=[PASSWORD]
+gcloud sql users create proxyuser cloudsqlproxy~% --instance=masterwordpress --password=049s5
