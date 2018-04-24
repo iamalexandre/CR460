@@ -23,6 +23,6 @@ spec:
           - name: DB_HOST
             value: "35.203.70.28"
           - name: DB_USER
-            value: "wordpress"
+            value: "root"
           - name: DB_NAME
             value: "wordpress"
