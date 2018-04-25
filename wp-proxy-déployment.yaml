@@ -42,7 +42,7 @@ spec:
         - name: cloudsql-proxy
           image: gcr.io/cloudsql-docker/gce-proxy:1.11
           command: ["/cloud_sql_proxy",
-                    "-instances=travail-session-201518:northamerica-northeast1:masterwordpress=tcp:3306",
+                    "-instances=travail-session-201518:northamerica-northeast1:instwordpress=tcp:3306",
                     "-credential_file=/secrets/cloudsql/credentials.json"]
           volumeMounts:
             - name: cloudsql-instance-credentials
