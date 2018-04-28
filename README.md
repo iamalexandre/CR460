@@ -1,4 +1,4 @@
-# Étape
+# Étapes
 1.	Créer les instances requises à l’aide du fichier Terraform, soit :
   •	Réseau VPC
   •	L’instance CloudSQL, incluant la base de données et sa configuration
